@@ -5,8 +5,10 @@
 			$this->title = "Magazzino - CAI Sovico";
 			$this->scripts = array();
 			
-            include("templates/headTemplate.php");
-			include("templates/bannerTemplate.php");
+            //include("templates/headTemplate.php");
+			//include("templates/bannerTemplate.php");
+			include("templates/headTemplate.php");
+			
 			
 			// In case of Exception raised at processing time, EXCEPTION is set
 			if(parent::__get("EXCEPTION") != "Missing parameter" ){

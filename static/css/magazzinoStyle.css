@@ -1,57 +1,96 @@
-.calendario-outer-box{
+
+h1{
+    text-align:center;
+}
+.top-buttons{
+    margin-top:15px;
+    text-align:center;
+}
+
+@media (max-width : 800px){
+    h1{
+        text-align:left;
+    }
+    .top-buttons{
+        margin-top:15px;
+        text-align:left;
+    }
+
+}
+
+
+.oggetto{
+    width:50%;
+}
+.tabella tr td:nth-child(3){
+    width:50%;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #eee;
+}
+
+
+.tabella-outer{
     position: absolute;
-    bottom: 60px;
-    left: 10px;
-    right: 10px;
-    top: 255px;
-    max-width: 800px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 125px;
     display: block;
     margin:auto;
+    text-align:center;
 }
-.calendario-outer-box tr{
-    height: 30px;
+
+.tabella-outer tr{
+    height: 50px;
 }
 @media (max-width : 800px){
-    .calendario-outer-box{
+    .tabella-outer{
         bottom: 0px;
         left: 0px;
         right: 0px;
-        top: 75px;
+        top: 125px;
         overflow-x: scroll;
     }
-    .calendario-outer-box tr{
-        height: 30px;
+    .tabella-outer tr{
+        height: 50px;
     }
 }
 
-.calendario{
+.tabella{
     background: #fff;
     table-layout: fixed;
-    width: 100%;
+    width:100%;
 }
-.calendario td a{
+
+.tabella td a{
     margin: 0;
     color: #000;
 }
-.calendario-inner-box{
+.tabella-inner{
     position: absolute;
-    top: 30px;
+    top: 50px;
     bottom: 0;
     right: 0;
     left: 0;
-    border: 1px solid #fff;
+    border-top: 2px solid #999;
 }
-.grid tr td{
+
+.griglia tr {
+    border: 1px solid #ddd;
+}
+
+.griglia tr td{
     text-align: center;
-    border: 1px solid #fff;
+    bborder: 1px solid #fff;
 }
-.grid tr td div{
+.griglia tr td div{
     white-space: nowrap;
     overflow: hidden;
 }
 .scrollable{
     overflow-y: scroll;
-    overflow-x: hidden;
+    ooverflow-x: hidden;
 }
 @media (max-width : 800px){
     .scrollable{
@@ -59,47 +98,6 @@
     }
 }
 
-
-
-
-.giorno{
-    width: 10%;
-    font-weight: bold;
-    text-align: center;
-    background: #fff;
-}
-.gestore{
-    width: 20%;
-    text-align: center;
-    background: #eee;
-}
-.letto{
-    background: #B3FFC3;
-}
-.brandina{
-    background: #FFFEB3;
-}
-.bivacco{
-    background: #D6E2FF;
-}
-.materasso{
-    background: #FFC8B3;
-}
-.nogestore{
-    background:#EFB8A3;
-}
-
-
-.gestore-div{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-left: 5px;
-}
-.booking-div{
-    font-weight: bold;
-    font-size: 10pt;
-}
 
 
 .shadow1{

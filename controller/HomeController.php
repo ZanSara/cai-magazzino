@@ -22,7 +22,8 @@ class HomeController extends Controller {
 
         // Pass here what's needed into the View/Template rendering
 		$params = array("Year" => ($this->model->getYear()),
-		    );
+		                "Items" => ($this->model->getItems()),
+		                );
 			
 		$this->view->addParams($params);
 		$this->view->show();
