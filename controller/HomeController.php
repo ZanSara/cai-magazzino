@@ -23,6 +23,7 @@ class HomeController extends Controller {
         // Pass here what's needed into the View/Template rendering
 		$params = array("Year" => ($this->model->getYear()),
 		                "Items" => ($this->model->getItems()),
+		                "Username" => "--username--",//($this->model->getUsername()), // How to do this???
 		                );
 			
 		$this->view->addParams($params);

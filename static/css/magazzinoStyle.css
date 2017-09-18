@@ -19,14 +19,62 @@ h1{
 }
 
 
-.oggetto{
-    width:50%;
+.btn-azioni{
+    color: white;
+    font-weight:bold;
 }
-.tabella tr td:nth-child(3){
-    width:50%;
+
+
+.tabella tr td div,
+.tabella tr th div{
+    padding-left:15px;
 }
-.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+
+
+.tabella tr th:nth-child(1),
+.tabella tr td:nth-child(1), 
+.tabella tr th:nth-child(1) div,
+.tabella tr td:nth-child(1) div {
+    width:50px;
+    text-align:center;
+}
+.tabella tr th:nth-child(2),
+.tabella tr td:nth-child(2),
+.tabella tr th:nth-child(2) div,
+.tabella tr td:nth-child(2) div{
+    width:120px;
+    text-align:center;
+}
+.tabella tr th:nth-child(3) div,
+.tabella tr td:nth-child(3 div){
+    wwidth:10%;
+}
+
+.tabella tr th:nth-child(4),
+.tabella tr td:nth-child(4),
+.tabella tr th:nth-child(4) div,
+.tabella tr td:nth-child(4) div{
+    width:200px;
+}
+.tabella tr th:nth-child(5),
+.tabella tr td:nth-child(5),
+.tabella tr th:nth-child(5) div,
+.tabella tr td:nth-child(5) div{
+    width:100px;
+}
+
+.table-striped > tbody > tr:nth-child(4n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
    background-color: #eee;
+}
+
+
+.popuptd{
+    margin-left:10px;
+}
+.popuptd,
+.popuptd div{
+    width:800px !important;
+    text-align:left !important;
 }
 
 
@@ -35,10 +83,10 @@ h1{
     bottom: 0;
     left: 0;
     right: 0;
-    top: 125px;
+    top: 150px;
     display: block;
     margin:auto;
-    text-align:center;
+    
 }
 
 .tabella-outer tr{
@@ -49,7 +97,7 @@ h1{
         bottom: 0px;
         left: 0px;
         right: 0px;
-        top: 125px;
+        top: 150px;
         overflow-x: scroll;
     }
     .tabella-outer tr{
@@ -65,7 +113,7 @@ h1{
 
 .tabella td a{
     margin: 0;
-    color: #000;
+    ccolor: #000;
 }
 .tabella-inner{
     position: absolute;

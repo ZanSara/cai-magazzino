@@ -12,10 +12,7 @@
     
     <script src="<? echo STATICS ?>/javascript/jQuery/jquery-1.11.2.min.js"></script>
     <script src="<? echo STATICS ?>/bootstrap/js/bootstrap.min.js"></script>
-    <script src="<? echo STATICS ?>/javascript/modalUtils.js"></script>
-    <script src="<? echo STATICS ?>/javascript/findUtils.js"></script>
-    <script src="<? echo STATICS ?>/javascript/ajax.js"></script>
-    <script src="<? echo STATICS ?>/javascript/validator.js"></script>
+    <script src="<? echo STATICS ?>/javascript/warehouse.js"></script>
 
   </head>
   <body style="margin:20px;">
